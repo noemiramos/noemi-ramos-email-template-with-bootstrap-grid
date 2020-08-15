@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Template with Bootstrap Grid</title>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+
+</head>
+<body>
+    <div class= "container-fluid">
+        <div class= "row">
+            <div class="col-sm-4 col-md-3 col-lg-2 red"> 
+            <img class= "profile-icon" src= "user_019-email-profile-account-people-contact-512.webp" height= "30px">
+            <h2 class="welcome"> Welcome, Noemi!</h2>
+            <div class= "compose-btn"></div>
+            <button type="button" class="btn btn-compose"><b>+ Compose</b></button>
+            <ul class= "navbar nav-stacked">
+                <a class= "nav-item" href="#">Inbox(1)</a>
+                <a class= "nav-item" href="#">Tagged</a>
+                <a class= "nav-item" href="#">Important</a>
+                <a class= "nav-item" href="#">Sent Mail</a>
+                <a class= "nav-item" href="#">Drafts</a>
+                <a class= "nav-item" href="#">Trash</a>
+            </ul>
+         </div>
+    
+         <!--Column 2-->
+            <div class= "col-sm-8 col-md-3 col-lg-4 light-gray">
+                <div class= "search-icon">
+                    <input class="search-box" type="text" placeholder="Search for emails"><i class="fa fa-search icon"></i> 
+                   
+                </div>
+                <div class="email-card">
+                    <div class="email-body">
+                        <span class= "date-time">11:59 p.m</span>
+                         <h3 class= "email-sender"> Quincy Larson</h3><p class= "content"> <b>Here are this week's five links that are worth your...</b></p>
+                 </div>
+            </div>
+               
+                <div class="email-card">
+                    <div class="email-body">
+                        <span class= date-time>August 9,2020</span>
+                         <h3 class= "email-sender"> Tripadvisor</h3><p class= "content">Hit the road and enjoy the great outdoors...</p>
+                </div>
+            </div>
+     
+        <div class="highlight-box email-card">
+            <div class="email-body">
+                <span class= date-time>August 1,2020</span>
+                 <h3 class= "email-sender"> Starbucks Rewards</h3><p class= "content">We're making updates to Starbucks Rewards...</p>
+
+            </div>
+        </div>
+        </div>
+        <!--Column 3-->
+         <div class= "col-md-6 col-lg-6 white">
+            <div class="to-from">
+                <p class= "to"> To: abcdef@gmail.com</p> 
+                <p class="from">From: starbucks@e.starbucks.com</p>
+            </div>
+            
+            <div class="email-header">
+                <h4 class="email-header">More ways to pay are coming</h4>
+            <ul class= reply-icons>
+                <i class='fas fa-ellipsis-h'></i>
+                <i class='fas fa-reply'></i>
+                <i class='fas fa-trash'></i><br>
+            </ul>
+                <div class= "email-body">
+                    <p class= "email-body"> 
+                        This fall, Starbucks Rewards is adding more ways to pay using the Starbucks app. You will soon be able to pay with cash, debit, or credit cards and earn 1 Star per dollar at participating stores.	 
+                        You'll still be able to earn 2 Stars per dollar when you load and pay with a Starbucks Card in the app.	 
+                        See our updated Terms of Use for more information.</p>
+                    
+                    <div class="form-group">
+                        <textarea  class="form-control" rows= "11" id="textFormControlInput1" placeholder="Your reply here..."></textarea>
+                    </div>
+                    <div class="reply-actions">
+                        <i class="material-icons">attachment</i>
+                        <button type="button" class="btn btn-outline-warning"> Reply</button>
+                    </div>
+                 </div>
+            </div>
+        </div>
+</body>
+</html>
